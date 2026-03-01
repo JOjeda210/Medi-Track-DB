@@ -1,0 +1,16 @@
+# Supabase
+.supabase
+supabase/.temp
+supabase/bin
+
+# Env files
+.env
+.env.local
+.env.*
+
+# Node
+node_modules
+
+# OS
+.DS_Store
+Thumbs.db
