@@ -1,0 +1,20 @@
+{
+  "name": "medi-track-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "supabase:init": "supabase init",
+  "supabase:start": "supabase start",
+  "supabase:stop": "supabase stop",
+  "supabase:reset": "supabase db reset",
+  "supabase:push": "supabase db push",
+  "supabase:migration": "supabase migration new"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "supabase": "^2.76.15"
+  }
+}
